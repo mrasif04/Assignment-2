@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int Num,lastdigit;
+    printf("Enter a number: ");
+    scanf("%d",&Num);
+    lastdigit=Num/10;
+    printf("The unit digit of this number is %d",lastdigit);
+    return 0;
+}

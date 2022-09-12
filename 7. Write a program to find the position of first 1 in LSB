@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int num,position=1;
+    printf("Enter the number: ");
+    scanf("%d",&num);
+    while(num)
+    {
+        if(num%2==1)
+        {
+            printf("%d",position);
+            return 0;
+        }
+        else
+        {
+            position++;
+            num=num/2;
+        }
+    }
+}
